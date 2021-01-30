@@ -76,7 +76,7 @@ Console Output:
 import spacy
 import scispacy
 
-# load the scispacy language
+# load the scispacy model
 nlp = spacy.load('en_core_sci_lg')
 
 # Convert PubTator document to BILUO format.
