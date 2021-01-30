@@ -1,5 +1,5 @@
 # PubTator Loader
-![Build - Main](https://github.com/ArshSekhon/pubtator_loader/workflows/Build%20-%20Main/badge.svg) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Build - Main](https://github.com/ArshSekhon/pubtator_loader/workflows/Build%20-%20Main/badge.svg) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![PyPI version](https://badge.fury.io/py/pubtator-loader.svg)](https://badge.fury.io/py/pubtator-loader)
 
 `pubtator_loader` is a python module that allows loading corpus from PubTator format and manipulate documents as Python object.
 It can also be used in combination with `spacy` to tokenize the documents and convert them to **BILUO Tags** to use for different
