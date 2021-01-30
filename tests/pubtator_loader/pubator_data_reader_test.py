@@ -1,4 +1,3 @@
-import pytest
 from pubtator_loader.pubtator_corpus_reader import PubTatorCorpusReader
 
 
