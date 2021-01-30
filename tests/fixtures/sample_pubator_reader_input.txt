@@ -1,0 +1,23 @@
+25763772|t|DCTN4 as a modifier of chronic Pseudomonas aeruginosa infection in cystic fibrosis | some text |
+25763772|a|Pseudomonas aeruginosa (Pa) infection in cystic fibrosis (CF) patients.
+25763772	0	5	DCTN4	T103	UMLS:C4308010
+25763772	23	63	chronic Pseudomonas aeruginosa infection	T038	UMLS:C0854135
+25763772	67	82	cystic fibrosis	T038	UMLS:C0010674
+25763772	83	120	Pseudomonas aeruginosa (Pa) infection	T038	UMLS:C0854135
+25763772	124	139	cystic fibrosis	T038	UMLS:C0010674
+25763772	141	143	CF	T038	UMLS:C0010674
+
+25847295|t|Nonylphenol diethoxylate inhibits apoptosis induced in PC12 cells
+25847295|a|Nonylphenol and short-chain nonylphenol ethoxylates such as NP2 EO are present in aquatic environment as wastewater contaminants, and their toxic effects.
+25847295	34	43	apoptosis	T038	UMLS:C0162638
+25847295	55	65	PC12 cells	T017	UMLS:C0085262
+25847295	137	144	present	T033	UMLS:C0150312
+25847295	206	219	toxic effects	T037	UMLS:C0600688
+
+26316050|t|Prevascularized silicon membranes for the enhancement of transport to implanted medical devices
+26316050|a|Recent advances in drug delivery and sensing devices for in situ applications.
+26316050	16	23	silicon	T103	UMLS:C0037114
+26316050	70	95	implanted medical devices	T033	UMLS:C2828363
+26316050	115	128	drug delivery	T074	UMLS:C0085104
+26316050	153	160	in situ	T082	UMLS:C0444498
+26316050	161	173	applications	T058	UMLS:C0185125

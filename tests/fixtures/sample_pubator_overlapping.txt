@@ -1,0 +1,84 @@
+27408381|t|A Case Presenting with Splenic Infarct Diagnosed as Primary Bone Marrow CD5 Positive DLBCL: A Clinicopathological Correlation
+27408381|a|De novo CD5+ Diffuse large B cell lymphoma (DLBCL) is a rare and aggressive subtype of DLBCL. It is a distinct clinicopathologic entity with complex molecular profile and poor prognosis. A 59 year old female presented with pyrexia of unknown origin since 1 month. On examination, there was severe pallor, hepatosplenomegaly and no palpable lymphadenopathy. Complete blood count revealed bicytopenia with normal total leucocyte count. Liver and renal function tests were normal. Ultrasonography abdomen revealed splenic enlargement with two focal lesions attributed to either splenic abscess or infarcts. Patient was being managed as splenic infarct but continued to have bicytopenia. Further investigation showed elevated serum ferritin, triglycerides and LDH. With a clinical suspicion of infection and haemophagocytic lymphohistiocytosis bone marrow aspiration (BMA) and biopsy (BMBx) was done. BMA showed extensive haemophagocytosis and ~7.4 % large lymphoma-like cells. On this basis PET-CT was suggested which showed enlarged spleen with diffuse uptake. BMBx showed nodular and intrasinusoidal collection of abnormal lymphoid cells. On immunohistochemistry, these cells were positive for CD20, CD5, MUM1, BCL-2, BCL-6 and negative for CD3, CD10 and CD23. CD34 highlighted focal intrasinusoidal pattern. The complete clinicopathological profile suggested the diagnosis of de novo CD5+ DLBCL, with primary hepatosplenic pattern of involvement. CD5+ DLBCL presenting as splenic infarct is very rare. This case was unusual as the diagnosis of a primary aggressive lymphoma with haemophagocytosis was established in a patient who presented with fever and splenic infarct without lymphadenopathy. This indicates the importance of good morphological assessment of a bone marrow aspirate and biopsy to make a correct diagnosis.
+27408381	23	38	Splenic Infarct	T038	UMLS:C0037998
+27408381	39	48	Diagnosed	T033	UMLS:C0011900
+27408381	52	71	Primary Bone Marrow	T017	UMLS:C0005953
+27408381	72	84	CD5 Positive	T017	UMLS:C0882892
+27408381	85	90	DLBCL	T038	UMLS:C0079744
+27408381	134	138	CD5+	T017	UMLS:C0882892
+27408381	139	168	Diffuse large B cell lymphoma	T033	UMLS:C0011900
+27408381	170	175	DLBCL	T038	UMLS:C0079744
+27408381	191	209	aggressive subtype	T033	UMLS:C0243095
+27408381	213	218	DLBCL	T038	UMLS:C0079744
+27408381	237	254	clinicopathologic	T033	UMLS:C0243095
+27408381	297	311	poor prognosis	T033	UMLS:C0278252
+27408381	334	348	presented with	T033	UMLS:C0150312
+27408381	349	374	pyrexia of unknown origin	T033	UMLS:C0015970
+27408381	393	404	examination	T058	UMLS:C0031809
+27408381	416	429	severe pallor	T033	UMLS:C0030232
+27408381	431	449	hepatosplenomegaly	T033	UMLS:C0019214
+27408381	466	481	lymphadenopathy	T038	UMLS:C0497156
+27408381	483	503	Complete blood count	T058	UMLS:C0009555
+27408381	513	524	bicytopenia	T033	UMLS:C1142446
+27408381	530	558	normal total leucocyte count	T033	UMLS:C0438221
+27408381	560	565	Liver	T058	UMLS:C0023901
+27408381	570	590	renal function tests	T058	UMLS:C0022662
+27408381	604	627	Ultrasonography abdomen	T058	UMLS:C0203464
+27408381	637	656	splenic enlargement	T033	UMLS:C0038002
+27408381	662	679	two focal lesions	T033	UMLS:C0243095
+27408381	701	716	splenic abscess	T038	UMLS:C0272412
+27408381	720	728	infarcts	T038	UMLS:C0037998
+27408381	759	774	splenic infarct	T038	UMLS:C0037998
+27408381	797	808	bicytopenia	T033	UMLS:C1142446
+27408381	818	831	investigation	T058	UMLS:C0220825
+27408381	839	862	elevated serum ferritin	T033	UMLS:C0241013
+27408381	864	877	triglycerides	T033	UMLS:C0813230
+27408381	882	885	LDH	T033	UMLS:C1275604
+27408381	903	912	suspicion	T038	UMLS:C0242114
+27408381	916	925	infection	T038	UMLS:C3714514
+27408381	930	965	haemophagocytic lymphohistiocytosis	T038	UMLS:C0024291
+27408381	966	988	bone marrow aspiration	T058	UMLS:C0398523
+27408381	966	1012	bone marrow aspiration (BMA) and biopsy (BMBx)	T058	UMLS:C0005954
+27408381	990	993	BMA	T058	UMLS:C0398523
+27408381	999	1005	biopsy	T058	UMLS:C0005558
+27408381	1044	1061	haemophagocytosis	T038	UMLS:C0876991
+27408381	1073	1098	large lymphoma-like cells	T038	UMLS:C0027671
+27408381	1114	1120	PET-CT	T058	UMLS:C1699633
+27408381	1148	1163	enlarged spleen	T033	UMLS:C0038002
+27408381	1169	1183	diffuse uptake	T033	UMLS:C0301639
+27408381	1185	1189	BMBx	T058	UMLS:C0005954
+27408381	1197	1204	nodular	T017	UMLS:C0028259
+27408381	1209	1224	intrasinusoidal	T082	UMLS:C0442041
+27408381	1239	1262	abnormal lymphoid cells	T017	UMLS:C0086574
+27408381	1267	1287	immunohistochemistry	T058	UMLS:C0021044
+27408381	1295	1300	cells	T017	UMLS:C0086574
+27408381	1306	1323	positive for CD20	T033	UMLS:C4289894
+27408381	1325	1328	CD5	T103	UMLS:C0054964
+27408381	1330	1334	MUM1	T103	UMLS:C0299544
+27408381	1353	1361	negative	T033	UMLS:C0205160
+27408381	1366	1369	CD3	T103	UMLS:C0108779
+27408381	1371	1375	CD10	T103	UMLS:C0025250
+27408381	1380	1384	CD23	T103	UMLS:C0123242
+27408381	1386	1390	CD34	T103	UMLS:C0054953
+27408381	1403	1408	focal	T082	UMLS:C0205234
+27408381	1409	1424	intrasinusoidal	T082	UMLS:C0442041
+27408381	1425	1432	pattern	T082	UMLS:C0449774
+27408381	1489	1498	diagnosis	T033	UMLS:C0011900
+27408381	1510	1514	CD5+	T017	UMLS:C0882892
+27408381	1515	1520	DLBCL	T038	UMLS:C0079744
+27408381	1527	1548	primary hepatosplenic	T038	UMLS:C0012634
+27408381	1549	1556	pattern	T082	UMLS:C0449774
+27408381	1573	1577	CD5+	T017	UMLS:C0882892
+27408381	1578	1583	DLBCL	T038	UMLS:C0079744
+27408381	1598	1613	splenic infarct	T038	UMLS:C0037998
+27408381	1617	1626	very rare	T033	UMLS:C1855575
+27408381	1657	1666	diagnosis	T033	UMLS:C0011900
+27408381	1672	1699	primary aggressive lymphoma	T038	UMLS:C1332225
+27408381	1705	1722	haemophagocytosis	T038	UMLS:C0876991
+27408381	1771	1776	fever	T033	UMLS:C0015967
+27408381	1781	1796	splenic infarct	T038	UMLS:C0037998
+27408381	1805	1820	lymphadenopathy	T038	UMLS:C0497156
+27408381	1860	1873	morphological	T082	UMLS:C0543482
+27408381	1890	1910	bone marrow aspirate	T031	UMLS:C0857285
+27408381	1915	1921	biopsy	T058	UMLS:C0005558
+27408381	1932	1949	correct diagnosis	T033	UMLS:C0011900
