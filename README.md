@@ -72,6 +72,13 @@ Console Output:
 }
 """
 
+
+import spacy
+import scispacy
+
+# load the scispacy language
+nlp = spacy.load('en_core_sci_lg')
+
 # Convert PubTator document to BILUO format.
 doc_in_BILUO = doc.tokenize_and_convert_to_bilou(nlp)
 
