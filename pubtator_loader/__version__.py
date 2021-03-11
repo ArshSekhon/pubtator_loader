@@ -6,7 +6,7 @@ Example:
     >>> from pubtator_loader.__version__ import __version__
 """
 __name__ = "pubtator_loader"
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 __description__ = "Parse PubTator files with ease"
 __url__ = "https://github.com/arshsekhon/pubtator_loader"
 __author__ = "Arsh Sekhon"
