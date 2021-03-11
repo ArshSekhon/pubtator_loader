@@ -35,6 +35,7 @@ where:
 ## Usage
 
 ```py
+from pubtator_loader import PubTatorCorpusReader
 dataset_reader = PubTatorCorpusReader('./sample_pubator_input.txt')
 
 corpus = dataset_reader.load_corpus() 

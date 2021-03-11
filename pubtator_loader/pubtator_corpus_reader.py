@@ -1,8 +1,8 @@
 from enum import Enum
 import re
 
-from pubtator_loader.models.pubtator_document import PubTatorDocument
-from pubtator_loader.models.pubtator_entities import PubTatorEntity
+from . import PubTatorDocument
+from . import PubTatorEntity
 
 
 class PubTatorCorpusReader:

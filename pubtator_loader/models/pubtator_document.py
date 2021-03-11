@@ -1,5 +1,5 @@
 from spacy.language import Language
-from spacy.gold import biluo_tags_from_offsets
+from spacy.training import offsets_to_biluo_tags
 from .pubtator_entities import PubTatorEntity
 from typing import List
 import re
@@ -115,9 +115,9 @@ class PubTatorDocument:
         sentences_started = 0
         for token, semantic_type_id, entity_id in zip(
                 document,
-                biluo_tags_from_offsets(document,
+                offsets_to_biluo_tags(document,
                                         entity_offsets_semantic_types),
-                biluo_tags_from_offsets(document, entity_offsets_entity_id),
+                offsets_to_biluo_tags(document, entity_offsets_entity_id),
         ):
             if token.is_sent_start:
                 if sentences_started == 0:
