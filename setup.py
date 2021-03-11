@@ -29,7 +29,7 @@ setup(
     author=about["__author__"],
     author_email=about["__author_email__"],
     license=about["__license__"],
-    packages=["pubtator_loader"],
+    packages=["pubtator_loader","pubtator_loader.models"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
