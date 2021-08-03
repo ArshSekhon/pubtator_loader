@@ -1,12 +1,11 @@
-from spacy.language import Language
-from spacy.training import offsets_to_biluo_tags
 from .pubtator_entities import PubTatorEntity
-from typing import List
+from typing import List, TYPE_CHECKING
 import re
 import json
-from spacy.tokenizer import Tokenizer
-from spacy.util import compile_prefix_regex, compile_suffix_regex
 
+if TYPE_CHECKING:
+    import spacy.language
+    import spacy.tokenizer
 
 class PubTatorDocument:
     def __init__(self, id):
@@ -83,7 +82,10 @@ class PubTatorDocument:
 
         self.entities = processed_entities
 
-    def __get_custom_tokenizer(self, nlp: Language) -> Tokenizer:
+    def __get_custom_tokenizer(self, nlp: 'spacy.language.Language') -> 'spacy.tokenizer.Tokenizer':
+        from spacy.util import compile_prefix_regex, compile_suffix_regex
+        from spacy.tokenizer import Tokenizer
+
         infix_re = re.compile(
             r'''[!\"\#\$\%\&\'\(\)\*\+\,\-\.\/
             \:\;\<\=\>\?\@\[\\\]\^\_\`\{\|\}\~]'''
@@ -97,7 +99,7 @@ class PubTatorDocument:
                          infix_finditer=infix_re.finditer,
                          token_match=None)
 
-    def tokenize_and_convert_to_bilou(self, nlp: Language):
+    def tokenize_and_convert_to_bilou(self, nlp: 'spacy.language.Language'):
         self.replace_overlapping_entities_w_longest()
         text = self.get_space_separated_title_and_abstract()
         # we need to use a custom tokenizer to avoid the alignment issues
@@ -113,6 +115,7 @@ class PubTatorDocument:
 
         results = []
         sentences_started = 0
+        from spacy.training import offsets_to_biluo_tags
         for token, semantic_type_id, entity_id in zip(
                 document,
                 offsets_to_biluo_tags(document,

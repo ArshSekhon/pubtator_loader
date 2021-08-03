@@ -34,12 +34,10 @@ where:
 
 ## Usage
 
-```py
-from pubtator_loader import PubTatorCorpusReader
-dataset_reader = PubTatorCorpusReader('./sample_pubator_input.txt')
+```python
+from pubtator_loader import from_path, PubTatorDocument
 
-corpus = dataset_reader.load_corpus() 
-# corpus will be a List[PubtatorDocuments]
+corpus: list[PubTatorDocument] = from_path('./sample_pubator_input.txt')
 
 for doc in corpus:
     print(doc)

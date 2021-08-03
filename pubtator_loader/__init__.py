@@ -1,2 +1,2 @@
-from .models import PubTatorEntity, PubTatorDocument # noqa
-from .pubtator_corpus_reader import PubTatorCorpusReader
+from .models import PubTatorDocument, PubTatorEntity  # noqa
+from .pubtator_corpus_reader import PubTatorCorpusReader, from_gz, from_lines, from_path  # noqa
