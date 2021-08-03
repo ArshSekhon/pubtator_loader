@@ -1,8 +1,26 @@
 from enum import Enum
 import re
+import gzip
 
 from . import PubTatorDocument
 from . import PubTatorEntity
+
+
+def from_gz(path, mode='rt'):
+    """Parse a pubtator corpus from a gzip file at the given path."""
+    with gzip.open(path, mode=mode) as file:
+        return from_lines(file)
+
+def from_path(path):
+    """Parse a pubtator corpus from a file at the given path."""
+    with open(path) as file:
+        return from_lines(file)
+
+
+def from_lines(lines):
+    """Parse a pubtator corpus from the given iterable of lines."""
+    reader = PubTatorCorpusReader()
+    return reader.parse_lines(lines)
 
 
 class PubTatorCorpusReader:
@@ -12,7 +30,7 @@ class PubTatorCorpusReader:
         MENTION = 'MENTION'
         DOC_SEP = 'DOCUMENT SEPARATOR'
 
-    def __init__(self, file_path):
+    def __init__(self, file_path=None):
         self.file_path = file_path
         self.__document_being_read = None
         self.corpus = []
@@ -37,9 +55,9 @@ class PubTatorCorpusReader:
     def load_corpus(self):
         with open(self.file_path, 'r') as file:
             lines = file.readlines()
-            return self.__parse_lines(lines)
+            return self.parse_lines(lines)
 
-    def __parse_lines(self, content_lines):
+    def parse_lines(self, content_lines):
         prev_line_type = None
         for line_number, line in enumerate(content_lines):
             try:
