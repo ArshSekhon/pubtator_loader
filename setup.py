@@ -36,7 +36,7 @@ setup(
     ],
     tests_require=["pytest"],
     install_requires=[
-        'spacy==3.0.5',
+        'spacy>=3.0.5,<=3.5.2',
     ],
     include_package_data=True,
     zip_safe=True,
